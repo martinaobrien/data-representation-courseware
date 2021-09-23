@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <catalogue category="Technical Books">
+        <book>
+            <isbn>576821430</isbn>
+            <title>Python Programming</title>
+            <author>Peter van der Linden</author>
+        </book>
+        <book>
+            <isbn>5759874546</isbn>
+            <title>Data Analysis in Python Programming</title>
+            <author>Mary Murphy</author>
+        </book>
+    </catalogue>
+    <catalogue category="Cookery Books">
+        <book>
+            <isbn>123456132</isbn>
+            <title>Mary Berry's Christmas Cooking</title>
+            <author>Mary Berry</author>
+        </book>
+        <book>
+            <isbn>123564879</isbn>
+            <title>Cooking with Jamie Oliver</title>
+            <author>Jamie Oliver</author>
+        </book>
+    </catalogue>
+</library>
