@@ -9,7 +9,7 @@ db = mysql.connector.connect(
 )
 cursor = db.cursor()
 sql="delete from student2 where id =%s"
-values = (1,)
+values = (15,)
 cursor.execute(sql, values)
 
 db.commit()
