@@ -1,6 +1,5 @@
 import mysql.connector
 
-
 class StudentDAO:
     db = ""
 
@@ -11,7 +10,7 @@ class StudentDAO:
             password="root",
             # user="datarep",  # this is the user name on my mac
             # passwd="password" # for my mac
-            database="datarepresentation"
+            database="martinadatarepresentation"
         )
 
     def create(self, values):
