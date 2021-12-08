@@ -7,5 +7,5 @@ db = mysql.connector.connect(
 
 )
 cursor = db.cursor()
-cursor.execute("CREATE DATABASE DEF")
+cursor.execute("CREATE DATABASE martinatest")
 
