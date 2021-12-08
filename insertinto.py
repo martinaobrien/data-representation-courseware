@@ -4,11 +4,11 @@ db = mysql.connector.connect(
     host="localhost",
     user="root",
     password="root",
-    database="martinadatarepresentation"
+    database="martinatest"
 
 )
 cursor = db.cursor()
-sql="insert into student2(name, age) values (%s,%s)"
+sql="insert into student(name, age) values (%s,%s)"
 values = ("Mary", 20)
 
 cursor.execute(sql, values)
